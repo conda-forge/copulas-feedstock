@@ -7,7 +7,7 @@ Package license: BSL-1.1
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/copulas-feedstock/blob/main/LICENSE.txt)
 
-Summary: Create tabular synthetic data using copulas-based modeling.
+Summary: A python library for building different types of copulas and using them for sampling.
 
 Current build status
 ====================
@@ -143,5 +143,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/sdv](https://github.com/conda-forge/sdv/)
+* [@conda-forge/rdt](https://github.com/conda-forge/rdt/)
 
