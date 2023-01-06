@@ -3,7 +3,7 @@ About copulas
 
 Home: https://github.com/sdv-dev/Copulas
 
-Package license: MIT
+Package license: BSL-1.1
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/copulas-feedstock/blob/main/LICENSE.txt)
 
