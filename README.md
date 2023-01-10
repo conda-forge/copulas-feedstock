@@ -3,11 +3,11 @@ About copulas
 
 Home: https://github.com/sdv-dev/Copulas
 
-Package license: BSL-1.1
+Package license: BUSL-1.1
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/copulas-feedstock/blob/main/LICENSE.txt)
 
-Summary: A python library for building different types of copulas and using them for sampling.
+Summary: Create tabular synthetic data using copulas-based modeling.
 
 Current build status
 ====================
@@ -143,5 +143,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/rdt](https://github.com/conda-forge/rdt/)
+* [@conda-forge/sdv](https://github.com/conda-forge/sdv/)
 
