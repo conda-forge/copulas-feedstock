@@ -11,7 +11,7 @@ source:
   sha256: fa38b4b5f14582a71242f1de6bada4485f9bd4adc50c6f6571f2c121d5a57c12
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -38,10 +38,10 @@ test:
 
 about:
   home: https://github.com/sdv-dev/Copulas
-  summary: A python library for building different types of copulas and using them for sampling.
-  license: BSL-1.1
+  summary: Create tabular synthetic data using copulas-based modeling.
+  license: BUSL-1.1
   license_file: LICENSE
 
 extra:
   recipe-maintainers:
-    - conda-forge/rdt
+    - conda-forge/sdv
