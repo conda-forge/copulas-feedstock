@@ -1,11 +1,11 @@
-About copulas
-=============
+About copulas-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/copulas-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sdv-dev/Copulas
 
 Package license: BUSL-1.1
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/copulas-feedstock/blob/main/LICENSE.txt)
 
 Summary: Create tabular synthetic data using copulas-based modeling.
 
