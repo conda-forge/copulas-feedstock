@@ -1,5 +1,5 @@
 {% set name = "copulas" %}
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/copulas-{{ version }}.tar.gz
-  sha256: fa38b4b5f14582a71242f1de6bada4485f9bd4adc50c6f6571f2c121d5a57c12
+  sha256: c518c10bdee7eb63893f8d814e5c2a16125ed13ea44ad68559e3e12160d21166
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,7 +23,7 @@ requirements:
   run:
     - matplotlib-base >=3.4.0,<4
     - numpy >=1.20.0,<2
-    - pandas >=1.1.3,<2
+    - pandas >=1.1.3
     - python >=3.7,<3.12
     - scipy >=1.5.4,<2
 
