@@ -1,5 +1,5 @@
 {% set name = "copulas" %}
-{% set version = "0.11.0" %}
+{% set version = "0.11.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/copulas-{{ version }}.tar.gz
-  sha256: 7bfdb16e04ea0af19fed23089bca7521d62bc6fdbb8f9b966833707cb08173e9
+  sha256: 55cee8d2d0017b7124c4dbbd034e9a044528de13e4c4b0c79b43b8d35c49b764
 
 build:
   number: 0
