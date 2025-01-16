@@ -24,7 +24,7 @@ requirements:
     - numpy >=1.21.0
     - pandas >=1.4.0
     - plotly >=5.10.0
-    - python >={{ python_min }},<3.13
+    - python >={{ python_min }},<3.14
     - scipy >=1.7.3
 
 test:
