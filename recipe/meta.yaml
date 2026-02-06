@@ -1,5 +1,5 @@
 {% set name = "copulas" %}
-{% set version = "0.14.0" %}
+{% set version = "0.14.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/copulas-{{ version }}.tar.gz
-  sha256: e1dd90663f3c6a8210e1313159adbf1c2ed48bf69224ffe99a338243a880e678
+  sha256: adec8f65c98f16816bde5a03e9e7e7b3df91f3fb22ef9fd5023ebba8dd1628c8
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - setuptools
   run:
     - numpy >=1.21.0
-    - pandas >=1.4.0
+    - pandas >=1.4.0,<3
     - plotly >=5.10.0
     - python >={{ python_min }},<3.15
     - scipy >=1.7.3
